@@ -126,7 +126,7 @@ p {
 --------------------------------------------- */
 
 header {
-  background: #f4421a;
+  background: #546eb6;
   position: fixed;
   z-index: 3;
   width: 100%;
@@ -139,7 +139,7 @@ header {
   text-decoration: none;
   font-weight: bold;
   line-height: 55px;
-  padding: 0 20px;
+  padding: 0 30px;
   color: #fff;
   float: left;
 }
@@ -229,7 +229,7 @@ header {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   border-top: 1px solid white;
   text-decoration: none;
-  background: #f4421a;
+  background: #546eb6;
   padding: 0.7em 1em;
   color: #fff;
   width: 100%;
@@ -238,7 +238,10 @@ header {
 
 .nav-collapse a:active,
 .nav-collapse .active a {
-  background: #b73214;
+  background: #354d8f;
+}
+.nav-collapse a:hover{
+  background: #354d8f;
 }
 
 @media screen and (min-width: 40em) {
